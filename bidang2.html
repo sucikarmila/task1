@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bidang</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding-top: 60px; /* Adjust for fixed navbar */
+        }
+
+        /* Navbar Styling */
+.navbar {
+  background-color: #222222;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center; /* Menjaga navbar di tengah */
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+        .navbar .navbar-brand {
+            color: #00c6ff;
+            font-size: 1.8rem;
+            font-weight: 700;
+            text-decoration: none;
+            padding-left: 20px;
+        }
+
+        .navbar .navbar-brand:hover {
+            color: #ffffff;
+        }
+
+        .navbar a {
+            color: #ffffff;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: color 0.3s ease, background-color 0.3s ease;
+        }
+
+        .navbar a:hover,
+        .navbar a.active {
+            color: #00c6ff;
+            background-color: #333333;
+            border-radius: 5px;
+        }
+
+        .navbar a:focus {
+            outline: none;
+        }
+
+        /* Service Section */
+        .service_section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .service_container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .box {
+            background: #1c1a1a;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: 0.3s ease;
+        }
+
+        .box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .box img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .box h5 {
+            font-size: 1.1rem;
+            margin: 15px 0;
+            color: #ffffff;
+        }
+
+        .btn-box {
+            margin-top: 15px;
+        }
+
+        .btn-box a {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1rem;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background 0.3s ease;
+        }
+
+        .btn-box a:hover {
+            background: #0056b3;
+        }
+
+        .bg-dark-section {
+            background-color: #1f1f1f;
+            padding: 60px 0;
+        }
+
+        h2, h4 {
+            color: #ffffff;
+        }
+
+        p {
+            text-align: justify;
+            color: #cccccc;
+            line-height: 1.8;
+        }
+
+        /* Responsive adjustments for smaller screens (mobile) */
+        @media (max-width: 600px) {
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: 20px 0;
+            }
+
+            .navbar a {
+                padding: 8px 15px;
+                font-size: 1rem;
+            }
+
+            .service_section {
+                padding: 40px 10px;
+            }
+
+            .box {
+                padding: 15px;
+            }
+
+            .box img {
+                height: 220px;
+            }
+
+            .box h5 {
+                font-size: 1rem;
+            }
+
+            .btn-box a {
+                padding: 8px 15px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body class="sub_page">
+
+    <header class="header_section">
+        <div class="navbar">
+            <div>
+                <a href="about.html">Tentang</a>
+                <a href="bidang2.html" class="active">Bidang</a>
+                <a href="informasi.html">Informasi</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="service_section">
+        <div class="container">
+            <div class="service_container">
+                <div class="box">
+                    <img src="images/ideologi.png" alt="Ideologi">
+                    <h5>Ideologi Pembangunan</h5>
+                    <div class="btn-box"><a href="ideologi.html">Yuk Baca</a></div>
+                </div>
+                <div class="box">
+                    <img src="images/politik.png" alt="Politik">
+                    <h5>Analisis Politik dan Dukungan Kebijakan</h5>
+                    <div class="btn-box"><a href="politik.html">Yuk Baca</a></div>
+                </div>
+                <div class="box">
+                    <img src="images/budaya.png" alt="Budaya">
+                    <h5>Pemberdayaan Budaya Lokal</h5>
+                    <div class="btn-box"><a href="budaya.html">Yuk Baca</a></div>
+                </div>
+                <div class="box">
+                    <img src="images/agama.png" alt="Agama">
+                    <h5>Peran Agama dalam Kerukunan</h5>
+                    <div class="btn-box"><a href="agama.html">Yuk Baca</a></div>
+                </div>
+                <div class="box">
+                    <img src="images/pendidikan.png" alt="Pendidikan">
+                    <h5>Program Pendidikan Berkualitas</h5>
+                    <div class="btn-box"><a href="pendidikan.html">Yuk Baca</a></div>
+                </div>
+                <div class="box">
+                    <img src="images/ekonomi.png" alt="Ekonomi">
+                    <h5>Mendukung Pelaku Usaha</h5>
+                    <div class="btn-box"><a href="ekonomi.html">Yuk Baca</a></div>
+                </div>
+                <div class="box">
+                    <img src="images/sosial.png" alt="Sosial">
+                    <h5>Program Pengembangan Sosial</h5>
+                    <div class="btn-box"><a href="sosial.html">Yuk Baca</a></div>
+                </div>
+                <div class="box">
+                    <img src="images/pertahanan.png" alt="Pertahanan">
+                    <h5>Konsultasi dalam Pertahanan dan Keamanan</h5>
+                    <div class="btn-box"><a href="pertahanan.html">Yuk Baca</a></div>
+                </div>
+                <div class="box">
+                    <img src="images/prestasi.png" alt="Prestasi">
+                    <h5>Meningkatkan Infrastruktur</h5>
+                    <div class="btn-box"><a href="pencapaian.html">Yuk Baca</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

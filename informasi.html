@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Informasi</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: 'Poppins', sans-serif;
+      padding-top: 80px;
+    }
+
+    .navbar {
+      background-color: #222222;
+      padding: 15px 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .navbar a {
+      color: #ffffff;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 10px 20px;
+      transition: color 0.3s ease, background-color 0.3s ease;
+    }
+
+    .navbar a:hover,
+    .navbar a.active {
+      color: #00c6ff;
+      background-color: #333333;
+      border-radius: 5px;
+    }
+
+    .content-section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section-title h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .section-title p {
+      color: #cccccc;
+      font-size: 16px;
+    }
+
+    h4 {
+      margin-top: 30px;
+      font-size: 20px;
+      color: #00c6ff;
+    }
+
+    p, li {
+      font-size: 16px;
+      color: #cccccc;
+      line-height: 1.8;
+      text-align: justify;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .service_section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .service_container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .box {
+      background: #1c1a1a;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: 0.3s ease;
+    }
+
+    .box:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    }
+
+    .box img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .box h5 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .box p {
+      font-size: 14px;
+      color: #cccccc;
+    }
+
+    @media (max-width: 768px) {
+      .content-section, .service_section {
+        padding: 40px 15px;
+      }
+      .navbar {
+        gap: 20px;
+      }
+      .navbar a {
+        font-size: 14px;
+        padding: 8px 15px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .content-section {
+        padding: 30px 15px;
+      }
+      .section-title h2 {
+        font-size: 24px;
+      }
+      .section-title p {
+        font-size: 14px;
+      }
+      .service_container {
+        grid-template-columns: 1fr;
+      }
+      .box img {
+        height: 200px;
+      }
+      .box h5 {
+        font-size: 16px;
+      }
+      .box p {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="about.html">Tentang</a>
+    <a href="bidang2.html">Bidang</a>
+    <a href="informasi.html" class="active">Informasi</a>
+  </div>
+
+  <!-- Konten Utama -->
+  <section class="content-section">
+    <div class="section-title">
+      <h2>Proses Peralihan</h2>
+      <p>Peristiwa sejarah penting yang mengubah politik Indonesia.</p>
+    </div>
+
+    <h4>Latar Belakang</h4>
+    <p>Pada akhir 1990-an, krisis ekonomi, korupsi, dan ketidakpuasan publik memicu perubahan besar dalam pemerintahan. Demonstrasi besar-besaran menuntut reformasi dan perubahan kepemimpinan.</p>
+
+    <h4>Reformasi 1998</h4>
+    <p>Demonstrasi mahasiswa mencapai puncaknya pada Mei 1998 dengan pendudukan Gedung DPR/MPR. Tragedi Trisakti dan kerusuhan memperburuk situasi, hingga Soeharto mengundurkan diri pada 21 Mei 1998.</p>
+
+    <h4>Pascapengunduran Soeharto</h4>
+    <p>B.J. Habibie mengambil alih kepemimpinan dan menerapkan reformasi, termasuk kebebasan pers, otonomi daerah, serta stabilisasi ekonomi.</p>
+
+    <h4>Pemilu 1999</h4>
+    <p>Pemilu demokratis pertama sejak Orde Baru diadakan pada 7 Juni 1999, menghasilkan sistem multipartai. Gus Dur terpilih sebagai Presiden ke-4 menggantikan Habibie.</p>
+
+    <h4>Dampak Reformasi</h4>
+    <ul>
+      <li>Penghapusan Dwi Fungsi ABRI</li>
+      <li>Demokratisasi sistem politik</li>
+      <li>Kebebasan pers dan penegakan HAM</li>
+      <li>Desentralisasi dan otonomi daerah</li>
+      <li>Pembentukan KPK untuk pemberantasan korupsi</li>
+    </ul>
+  </section>
+
+  <!-- Tokoh -->
+  <section class="service_section">
+    <div class="service_container">
+      <div class="box">
+        <img src="images/soeharto.jpg" alt="Presiden Soeharto">
+        <h5>Presiden Soeharto</h5>
+        <p>Presiden Indonesia (1967–1998), memimpin selama 30 tahun dengan kebijakan ekonomi yang sukses, tetapi juga berbagai kontroversi, termasuk korupsi dan pelanggaran HAM.</p>
+      </div>
+      <div class="box">
+        <img src="images/tri.jpg" alt="Wakil Presiden Tri Sutrisno">
+        <h5>Wakil Presiden Tri Sutrisno</h5>
+        <p>Wakil Presiden (1993–1998), berperan dalam transisi menuju pemerintahan yang lebih demokratis dan menjaga stabilitas nasional.</p>
+      </div>
+      <div class="box">
+        <img src="images/bj habibie.jpg" alt="Presiden B.J. Habibie">
+        <h5>Presiden B.J. Habibie</h5>
+        <p>Presiden Indonesia (1998–1999), menerapkan berbagai kebijakan reformasi yang membuka jalan bagi sistem politik yang lebih demokratis.</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

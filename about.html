@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Tentang</title>
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+  background-color: #222222;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center; /* Menjaga navbar di tengah */
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+    .navbar .navbar-brand {
+      color: #00c6ff;
+      font-size: 1.8rem;
+      font-weight: 700;
+      text-decoration: none;
+      padding-left: 20px;
+    }
+
+    .navbar .navbar-brand:hover {
+      color: #ffffff;
+    }
+
+    .navbar a {
+      color: #ffffff;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 10px 20px;
+      transition: color 0.3s ease, background-color 0.3s ease;
+    }
+
+    .navbar a:hover,
+    .navbar a.active {
+      color: #00c6ff;
+      background-color: #333333;
+      border-radius: 5px;
+    }
+
+    .navbar a:focus {
+      outline: none;
+    }
+
+    /* Hero Section */
+    .hero_area {
+      position: relative;
+      margin-top: 60px; /* To avoid overlap with fixed navbar */
+    }
+
+    .hero_bg_box img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      opacity: 0.4;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    .bg-dark-section {
+      background-color: #1f1f1f;
+      padding: 80px 20px;
+    }
+
+    .text-center h2 {
+      font-weight: 700;
+      margin-bottom: 20px;
+      font-size: 2.5rem;
+    }
+
+    .text-center p {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #cccccc;
+    }
+
+    .img-box img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+      transition: transform 0.3s ease;
+    }
+
+    .img-box img:hover {
+      transform: scale(1.03);
+    }
+
+    h4 {
+      margin-top: 20px;
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+
+    p {
+      text-align: justify;
+      color: #cccccc;
+      line-height: 1.8;
+      font-size: 1rem;
+    }
+
+    /* Mobile-first design for smaller screens */
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .hero_bg_box img {
+        height: 250px;
+      }
+
+      .text-center h2 {
+        font-size: 1.8rem;
+      }
+
+      .text-center p {
+        font-size: 1rem;
+      }
+
+      .img-box img {
+        height: auto;
+      }
+    }
+  </style>
+</head>
+
+<body class="sub_page">
+
+  <!-- Header -->
+  <header class="header_section">
+    <div class="navbar">
+      <div>
+        <a href="about.html" class="active">Tentang</a>
+        <a href="bidang2.html">Bidang</a>
+        <a href="informasi.html">Informasi</a>
+      </div>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- Hero Background -->
+  <div class="hero_area">
+    <div class="hero_bg_box">
+      <img src="images/home.jpg" alt="Latar Soeharto">
+    </div>
+  </div>
+
+  <!-- Content Section -->
+  <section class="bg-dark-section">
+    <div class="container">
+      <!-- Judul -->
+      <div class="text-center mb-5">
+        <h2>Sejarah Presiden Soeharto dan Tri Sutrisno</h2>
+        <p>
+          Presiden Soeharto adalah tokoh sentral dalam sejarah politik Indonesia, menggantikan Soekarno pada 1966 dan memimpin selama lebih dari tiga dekade. Masa pemerintahannya disebut Orde Baru, yang ditandai dengan pertumbuhan ekonomi, namun juga pelanggaran HAM.
+          <br><br>
+          Tri Sutrisno sebagai Wakil Presiden (1993–1998) turut mendukung stabilitas pemerintahan saat krisis ekonomi 1997. Keduanya meninggalkan warisan yang kompleks, penuh prestasi namun juga kontroversi.
+        </p>
+      </div>
+
+      <!-- Gambar dan masa pemerintahan -->
+      <div class="row align-items-center">
+        <!-- Gambar -->
+        <div class="col-md-6 mb-4 mb-md-0">
+          <div class="img-box text-center">
+            <img src="images/home.jpg" alt="Presiden Soeharto">
+          </div>
+        </div>
+
+        <!-- Teks -->
+        <div class="col-md-6">
+          <h4>Masa Pemerintahan</h4>
+          <p>
+            Soeharto resmi menjadi Presiden pada tahun 1967 dan memperkenalkan program pembangunan jangka panjang bernama Repelita. Era ini membawa banyak pembangunan fisik dan pertumbuhan ekonomi, namun juga pembungkaman politik dan penghilangan paksa aktivis.
+          </p>
+          <p>
+            Tri Sutrisno mendampingi Soeharto di masa krusial, terutama saat Indonesia dilanda krisis moneter. Setelah gejolak politik dan tuntutan reformasi dari rakyat, Soeharto mengundurkan diri pada Mei 1998, mengakhiri era Orde Baru.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
